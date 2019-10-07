@@ -186,14 +186,23 @@ bwplot(Petal.Length~Species, data = iris)
 ### Datasets de ejemplo: *Iris de Fisher* y *mpg*
 
 
-```{r}
-install.packages("tidyverse")
+```{r, eval=FALSE}
+#install.packages("tidyverse")
+x <- c("ggplot2","dplyr","tidyr","readr","purrr","tibble","stringr","forcats")
+install.packages(x)
 ```
 
 
 ```{r}
-library(tidyverse)
-#install.packages("rlang")
+#library(tidyverse)
+library("ggplot2")
+library("dplyr")
+library("tidyr")
+library("readr")
+library("purrr")
+library("tibble")
+library("stringr")
+library("forcats")
 ```
 
 
